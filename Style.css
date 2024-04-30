@@ -13,13 +13,14 @@ html,body{
     margin:0;
 }
 
-.nav li{
+.nav li {
     display: inline;
+    color: white;
 }
 .nav a{
     display: inline-block;
     padding: .5em;
-    color: blueviolet;
+ 
     text-decoration: none;
 }
 .main-nav li{
