@@ -1,3 +1,4 @@
+/*RESUME*/
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 * {
     box-sizing: border-box;
@@ -12,7 +13,12 @@ html,body{
 .nav ul{
     margin:0;
 }
-
+.Resume-Image {
+    /**/border-radius: 10%;
+    height:1000px;
+    width: 800px;
+    border: 3px solid;
+}
 .nav li {
     display: inline;
     color: white;
@@ -42,6 +48,9 @@ html,body{
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+}
+.Owner-name{
+    color: white
 }
 .Owner-name-large{
 font-size: 3em;
