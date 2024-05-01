@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-*{
+* {
     box-sizing: border-box;
-    font-family:Raleway;
+    font-family: "Reddit Mono", monospace;
     color: #777;
 }
 
@@ -53,4 +53,32 @@ font-size: 3em;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+}
+.link-text {
+    color: white;
+}
+
+.main-footer {
+    background-color: rgba(1,1,1,.6);
+    color: white;
+    padding: .25em 0;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
 }
